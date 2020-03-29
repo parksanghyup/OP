@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <!--
+    layout_width 는 위젯의 너비를 의미
+    layout_height 는 위젯의 높이를 의미
+    match_parent 는 레이아웃의 최대 넓이에 맞추는 것을 의미
+    wrap_content 는 내용물을 감싸는 크기를 의미하며, 크기를 직접 지정할 수 있다.
+    -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:text="@string/strBtn1"
+        android:background="@color/lightSky"
+        ></Button>
+    <!--
+    id 는 위젯의 고유 명을 의미
+    text 는 위젯 내부 글자 내용을 의미
+    background 는 위젯 배경색을 의미
+    textColor 는 위젯 글꼴색을 의미
+    -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:text="@string/strBtn2"
+        android:background="@color/lightRed"
+        ></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:text="@string/strBtn3"
+        android:background="@color/grey"
+        ></Button>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:text="@string/strBtn4"
+        android:textColor="@color/white"
+        ></Button>
+
+</LinearLayout>

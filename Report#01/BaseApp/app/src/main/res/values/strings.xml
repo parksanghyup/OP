@@ -1,0 +1,8 @@
+<!-- 파일을 나누어 관리함으로써 관리에 더 용이함 -->
+<resources>
+    <string name="app_name">ButtonApp</string>
+    <string name="strBtn1">구글 홈페이지 열기</string>
+    <string name="strBtn2">119 전화걸기</string>
+    <string name="strBtn3">갤러리 열기</string>
+    <string name="strBtn4">끝내기</string>
+</resources>
