@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/find"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MeasureActivity">
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="120dp"
+        android:layout_height="72dp"
+        android:background="#00FFFFFF"
+        android:drawableTop="@drawable/glass"
+        android:onClick="btnClicksearch"
+        android:paddingTop="10dp"
+        android:text="검색"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
+
+    <Button
+        android:id="@+id/category"
+        android:layout_width="120dp"
+        android:layout_height="72dp"
+        android:background="#00FFFFFF"
+        android:drawableTop="@drawable/cate"
+        android:onClick="btnClicklist"
+        android:paddingTop="10dp"
+        android:text="목록"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
+
+    <Button
+        android:id="@+id/measure"
+        android:layout_width="120dp"
+        android:layout_height="72dp"
+        android:background="#00ffffff"
+        android:drawableTop="@drawable/timer2"
+        android:onClick="btnClickmeasure"
+        android:paddingTop="10dp"
+        android:text="측정"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        android:onClick="onbuttontomain"
+        android:text="메인으로"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="   측정"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:text="측정  >"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116" />
+
+    <Button
+        android:id="@+id/waist"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:background="#E6E6E6"
+        android:drawableLeft="@drawable/waist"
+        android:gravity="center"
+        android:onClick="btnClickwaist"
+        android:paddingRight="20dp"
+        android:text="허리    >"
+        android:textAlignment="textEnd"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.238" />
+
+    <Button
+        android:id="@+id/shoulder"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:background="#E6E6E6"
+        android:drawableLeft="@drawable/arms"
+        android:gravity="center"
+        android:onClick="btnClickshoulder"
+        android:paddingRight="20dp"
+        android:text="어깨    >"
+        android:textAlignment="textEnd"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.588" />
+
+    <Button
+        android:id="@+id/leg"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:background="#E6E6E6"
+        android:drawableLeft="@drawable/leg"
+        android:gravity="center"
+        android:onClick="btnClickleg"
+        android:paddingRight="20dp"
+        android:text="다리    >"
+        android:textAlignment="textEnd"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.413" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
